@@ -11,6 +11,6 @@
 
 ## Notes
 
-build a form using form_tag for a new post
+build a form using form_tag for a new student
 
-should include the right action url and use posts_path should use the correct method should have a CSRF should submit correctly to posts#create should have a post title field post_title should have a post content field post_content working submit button
+should include the right action url and use students_path should use the correct method should have a CSRF should submit correctly to students#create should have a all of the student fields
