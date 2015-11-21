@@ -23,7 +23,7 @@ feature 'form page' do
     expect(page).to have_content("Student Form")
   end
 
-  scenario 'new form submits content and prints out params (temporary spec)' do
+  scenario 'new form submits content and renders form content' do
     visit new_student_path
 
     fill_in 'first_name', with: "Margaery"
