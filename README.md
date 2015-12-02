@@ -14,3 +14,5 @@
 build a form using form_tag for a new student
 
 should include the right action url and use students_path should use the correct method should have a CSRF should submit correctly to students#create should have a all of the student fields
+
+<a href='https://learn.co/lessons/rails-form_tag-lab' data-visibility='hidden'>View this lesson on Learn.co</a>
