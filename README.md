@@ -19,15 +19,16 @@ There are two specs for this lab that are currently failing that you need to tak
 
 At a high level you need to build a form to create a new student and have the form redirect back to the new view template and print out the form params to the screen. Below are a few items to keep in mind:
 
-* Make sure to use the ```form_tag``` helper for generating the HTML form with the correct action and HTTP method.
+* Draw a `new` and `create` route for the `students` resource
 
-* Draw a ```new``` and ```create``` route for the ```students``` resource, these can be added to the ```resources``` route method.
+* Print out the student value to the view template page
 
-* Make sure to utilize the ```form_authenticity_token``` so the form can be processed properly, this can be passed through using a hidden field.
 
-* Integrate form helper methods such as ```text_field_tag``` and pass the ```first_name``` and ```last_name``` attributes as symbols to the helper methods so it will create the ID and name HTML attributes.
+## Keys to remember
 
-* There are a number of ways to print out the values to the screen, one way would be to store the form params in the session in the ```create``` controller action and then print those out on the ```new``` view template. This is temporary debugging code that we will remove in the next lesson. You can reference the [reading](https://github.com/learn-co-curriculum/rails-form_tag-readme) to see how we did it there.
+* Look at the tests to see which field values you should be using
+
+* Make sure to use the form tag helpers
 
 
 ## Resources
