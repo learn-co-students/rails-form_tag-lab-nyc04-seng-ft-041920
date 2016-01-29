@@ -35,3 +35,4 @@ At a high level you need to build a form to create a new student and have the fo
 
 [Reading](https://github.com/learn-co-curriculum/rails-form_tag-readme)
 [Form Helper Documentation](http://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html)
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/rails-form_tag-lab' title='Rails form_tag Lab'>Rails form_tag Lab</a> on Learn.co and start learning to code for free.</p>
