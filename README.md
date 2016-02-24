@@ -15,7 +15,7 @@
 
 ## Instructions
 
-There are two specs for this lab that are currently failing that you need to take from red to green, the specs are located here: ```specs/features/student_spec.rb``` and are in the feature ```form page```.
+There are two specs for this lab that are currently failing that you need to take from red to green, the specs are located here: `specs/features/student_spec.rb` and are in the feature `form page`.
 
 At a high level you need to build a form to create a new student and have the form redirect back to the new view template and print out the form params to the screen. Below are a few items to keep in mind:
 
