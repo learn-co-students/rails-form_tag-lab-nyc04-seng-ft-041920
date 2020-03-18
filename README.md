@@ -12,24 +12,25 @@
 
 5. Build a `new` action that renders a form that submits to the `create` action
 
-
 ## Instructions
 
-The two specs for this lab that are currently failing are located within the `form page` feature in `specs/features/student_spec.rb`.
+The two specs for this lab that are currently failing are located within the
+`form page` feature in `specs/features/student_spec.rb`.
 
-For this lab, you need to build a form to create a new student, have the form redirect _back_ to the `new` view template (commonly, a `create` action would redirect to `index`), and print out the form params to the screen.  Below are a few items to keep in mind:
+For this lab, you need to build a form to create a new student, have the form
+redirect _back_ to the `new` view template (commonly, a `create` action would
+redirect to `index`), and print out the form params to the screen.  Below are a
+few items to keep in mind:
 
 * Draw a `new` and `create` route for the `students` resource
 
 * Print out the student value to the view template page
-
 
 ## Keys to remember
 
 * Look at the tests to see which field values you should be using
 
 * Make sure to use the `form_tag` helpers
-
 
 ## Resources
 
