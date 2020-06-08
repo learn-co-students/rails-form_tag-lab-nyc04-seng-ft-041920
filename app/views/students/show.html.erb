@@ -1,1 +1,5 @@
-<h1><%= @student.to_s %></h1>
+<h1><%= @student.to_s %>'s Page</h1>
+
+<%= form_tag @student, method: "DELETE" do %>
+  <%= submit_tag "delete student" %>
+<% end %>
