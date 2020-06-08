@@ -19,20 +19,20 @@ The two specs for this lab that are currently failing are located within the
 
 For this lab, you need to build a form to create a new student, have the form
 redirect _back_ to the `new` view template (commonly, a `create` action would
-redirect to `index`), and print out the form params to the screen.  Below are a
+redirect to `index`), and print out the form params to the screen. Below are a
 few items to keep in mind:
 
-* Draw a `new` and `create` route for the `students` resource
+- Draw a `new` and `create` route for the `students` resource
 
-* Print out the student value to the view template page
+- Print out the student value to the view template page
 
 ## Keys to remember
 
-* Look at the tests to see which field values you should be using
+- Look at the tests to see which field values you should be using
 
-* Make sure to use the `form_tag` helpers
+- Make sure to use the `form_tag` helpers
 
 ## Resources
 
-* [Reading](https://github.com/learn-co-curriculum/rails-form_tag-readme)
-* [Form Helper Documentation](http://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html)
+- [Reading](https://github.com/learn-co-curriculum/rails-form_tag-readme)
+- [Form Helper Documentation](http://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html)
